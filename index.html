@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Portfolio</title>
+
+  <style>
+    @media (max-width: 768px) {
+  header h1 {
+    font-size: 24px;
+  }
+
+  header p, nav a, section p {
+    font-size: 16px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section {
+    padding: 20px 15px;
+  }
+
+  video#video-background {
+    object-fit: cover;
+  }
+}
+
+    /* General reset and body styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      color:black;
+      background-color: black;
+      height: 100vh;
+      position: relative;
+    }
+
+    /* Video background */
+    #video-background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Ensures video covers the screen without distortion */
+      z-index: -1; /* Places video behind content */
+    }
+
+    header {
+      text-align: center;
+      color: black;
+      padding: 20px 0;
+      position: relative;
+      z-index: 10;
+    }
+
+    nav a {
+      color:black;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      position: relative;
+      z-index: 10;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color:black;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #222;
+      color: black;
+      position: relative;
+      z-index: 10;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+      text-decoration: none;
+      color: #007BFF;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Video background -->
+  <video id="video-background" autoplay muted loop>
+    <source src="268528_small.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+<body>
+    
+  <header>
+    <h1>Tupakula Laxmi Narasimha</h1>
+    <p>Web Developer | Student</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a web developer and student from commerce background but am  passionate about building responsive and user-friendly websites. I work with HTML, CSS, JavaScript, and Firebase. I put my soul and blood to give 100%  </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+     
+      <div>
+        <h3>College Website</h3>
+        <p>A simple static site with pages for admissions, departments, notes, and contact.</p>
+        <a href="https://tupakula12.github.io/railway-degree-college/">GitHub Repo</a> | <a href="#">Live Demo</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p><a href="your-resume.pdf" target="_blank">Download My Resume (PDF)</a></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact">
+      <p>Email: <a href="mailto:tupakulanarasimha3@gmail.com">tupakulanarasimha3@gmail.com</a></p>
+      <a href="https://github.com/tupakula12" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tupakula Laxmi Narasimha. All rights reserved.</p>
+  </footer>
+</body>
+</html>
